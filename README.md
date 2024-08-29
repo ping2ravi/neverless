@@ -34,6 +34,10 @@ interaction with external withdrawal service and also run a single thread to che
 
 On Application shutdown all threads will be shutdown first and any pending task count will be printed in the logs
 
+## Testing
+
+All tests are implemented with in [AccountsSpec.java](app/src/testFunctional/java/com/neverless/spec/AccountsSpec.java)
+
 # Summary:
 
 Design and implement a Service with an API (including data model and the backing implementation) with following
